@@ -1,0 +1,26 @@
+{
+    "precaution": "Make sure there is no object on the table that you can knock over.",
+    "instruction": [
+        "Sit upright at the table with your right arm resting comfortably on the surface.",
+        "Place your right hand palm-down or neutral on the table.",
+        "Slowly slide your right hand forward, straightening your elbow as much as is comfortable.",
+        "Pause briefly",
+        "Then slide your hand back toward your body, bending the elbow.",
+        "Repeat the forward and backward movement 3\u20135 times in a smooth, controlled manner.",
+        "Rest your right arm."
+    ],
+    "setup": {
+        "ego": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    }
+}

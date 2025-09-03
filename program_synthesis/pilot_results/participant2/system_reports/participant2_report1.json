@@ -1,0 +1,66 @@
+{
+    "Exercise Step": [
+        "Reach towards the square on the wall.",
+        "Once you touch the square, trace the wall down to the triangle.",
+        "Next, touch the circle on the wall.",
+        "From the circle, trace down towards the star on the wall. This should make an X along the wall.",
+        "Rest your arm by your side and shake it out if it starts to feel heavy or sore.",
+        "Change the direction of your arm movement from star to circle and triangle to square.",
+        "Repeat the exercise two more times.",
+        "Let your arm rest by your side after completing the exercise."
+    ],
+    "Successful Instructions": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+    ],
+    "Failed Instructions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+    ],
+    "Omitted Instructions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+    ],
+    "Duration of Completion": [
+        7.561298131942749,
+        5.902996063232422,
+        2.8359549045562744,
+        0.7283639907836914,
+        4.819926023483276,
+        13.781869173049927,
+        0,
+        0
+    ],
+    "Pain Detection": [
+        true,
+        "right shoulder",
+        "pain when I reached the square",
+        "4/10"
+    ],
+    "Fatigue": [
+        false,
+        ""
+    ],
+    "Dizziness": [
+        false,
+        ""
+    ]
+}

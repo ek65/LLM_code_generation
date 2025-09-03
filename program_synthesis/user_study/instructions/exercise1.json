@@ -1,0 +1,30 @@
+{
+    "precaution": "Remove any objects you may knock off from the table",
+    "instruction": [
+        "Sit at a table with a wallet placed in front of you.",
+        "Place your right hand near the wallet.",
+        "Hold the wallet with your left hand.",
+        "Use your right hand to unzip the wallet slowly.",
+        "Use your right hand to reach into the coin pocket.",
+        "Pinch and remove one coin using your fingers.",
+        "Place the coin on the table.",
+        "Pinch and remove one more coin using your fingers.",
+        "Place the coin on the table.",
+        "Place the wallet on the table.",
+        "Rest your right arm."
+    ],
+    "setup": {
+        "ego": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    }
+}

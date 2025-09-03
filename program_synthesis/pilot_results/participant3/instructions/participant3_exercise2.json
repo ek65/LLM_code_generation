@@ -1,0 +1,31 @@
+{
+    "goal": "Improve strength and mobility in your fingers and shoulder",
+    "precaution": "If you feel pain, fatigue, or dizziness, please tell the system so that we can terminate the exercise for your safety.",
+    "instruction": [
+        "1. Place both your hands on the table.",
+        "2. Tap your fingers on the table as a warm-up.",
+        "3. With your right hand, reach into a bowl and pick up a bean.",
+        "4. Drop the bean back into the bowl.",
+        "5. Pick up each bean with your right hand.",
+        "6. Move the bean to the bowl on your left side.",
+        "7. Release the bean and put it in the bowl.",
+        "8. Go back and get another bean with your right hand.",
+        "9. Move the next bean to the bowl on your left side.",
+        "10. Release the next bean and put it in the bowl.",
+        "11. Repeat steps 8 to 10 until no beans are left in the original bowl."
+    ],
+    "setup": {
+        "ego": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    }
+}

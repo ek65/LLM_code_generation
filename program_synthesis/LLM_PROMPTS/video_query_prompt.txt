@@ -1,0 +1,21 @@
+prompt = f"You are a helpful assistant with capabilities to understand videos. 
+You are given (1) a video of a patient, and (2) a text instruction.
+Your task is to check whether the patient in the video is following the instruction correctly. 
+
+The patient is wearing orthotic splints while conducting a physical exercise at home. 
+The video is recorded from 1st person view by a camera attached to the patient's head so you will likely see 
+only the patient's hands, elbows, and any objects that the patient interacts with. 
+
+The instruction is given by a physical therapist to prescribe an exercise to the patient at home. 
+The instruction contains a 'history of prior instructions' and the 'current instruction.'
+Your task is to determine whether the patient is following the CURRENT instruction (NOT the history instructions).
+The history of instructions are only provided to give context and facilitate your understanding of the current instruction.
+
+Your task is to return two sentences:
+In the first sentence return a boolean (True/False), 
+and in the second, provide the reasoning behind your decision. 
+
+It is possible that the splints may obstruct the view of what the patient is doing with the hands. 
+Even so, please try your best to answer."
+
+############## Then provide the video and the instruction to LLM!

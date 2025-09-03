@@ -1,0 +1,50 @@
+{
+    "0": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Place the tongs in your right hand with your left hand.",
+        "Time_Taken": 9.805386066436768,
+        "Completeness": true
+    },
+    "1": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Position the thumb on one side of the tongs and the other four fingers on the other side.",
+        "Time_Taken": 4.4508750438690186,
+        "Completeness": true
+    },
+    "2": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Pick up one ball at a time with the tongs.",
+        "Time_Taken": 18.137438774108887,
+        "Completeness": false
+    },
+    "3": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Transfer the ball to the towel.",
+        "Time_Taken": 18.11101508140564,
+        "Completeness": false
+    },
+    "4": {
+        "ActionAPI": "Repeat Loop (3x)",
+        "Instruction": "Repeat the third and fourth steps for all three balls.",
+        "Time_Taken": 103.50291681289673,
+        "Completeness": false
+    },
+    "5": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "After all balls are transferred to the towel, pick up one ball at a time from the towel",
+        "Time_Taken": 5.798618793487549,
+        "Completeness": true
+    },
+    "6": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Transfer the ball back to the bowl.",
+        "Time_Taken": 9.559371948242188,
+        "Completeness": true
+    },
+    "7": {
+        "ActionAPI": "Repeat Loop (3x)",
+        "Instruction": "Repeat the last two steps until all balls are back in the bowl.",
+        "Time_Taken": 71.57234311103821,
+        "Completeness": true
+    }
+}

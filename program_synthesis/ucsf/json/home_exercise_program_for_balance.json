@@ -1,0 +1,22 @@
+{
+    "instructions": [
+        "1. Sit in an upright position on a firm chair",
+        "2. Stand up while focusing on distributing your weight equally through both legs and try to minimize the use of your arms to push up.",
+        "3. Once in an upright standing position, return to a sitting position.",
+        "4. Repeat steps 1–3 three times."
+    ],
+    "setup": {
+        "ego": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    }
+}

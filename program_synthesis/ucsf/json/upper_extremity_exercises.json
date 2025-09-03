@@ -1,0 +1,115 @@
+{
+    "instructions": [
+        "1. Sit at table after gathering [sponge then cup, pencil, utensil (with foam grip if needed)].",
+        "2. Place object(s) within X inches from table edge. Reach for object and try to grasp. Move object close to midline. Replace object at original starting point. Repeat X times.",
+        "3. Place object within X inches from table edge (vs 'farther away'), repeat step 2 X times.",
+        "4. Place object at farthest reachable point by unaffected limb. Repeat step 2 with affected upper extremity X times.",
+        "5. Place object on the opposite (crossing midline) from the unaffected limb. Repeat steps 2–4 with affected upper extremity.",
+        "6. Advance to next complex object as determined by clinician. Repeat steps 2–5.",
+        "7. As an advanced exercise, once able to complete steps 2–5: Proceed to moving cup/utensil/toothbrush from starting point to mouth then return object back to starting point. Repeat X times."
+    ],
+    "setup": {
+        "real_obj_placeholder1": [
+            [
+                0.218796551,
+                -0.384126663,
+                0.5437
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0.1,
+                0.1,
+                0.1
+            ]
+        ],
+        "real_obj_placeholder2": [
+            [
+                0.07165553,
+                -0.384126663,
+                0.7340634
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0.1,
+                0.1,
+                0.1
+            ]
+        ],
+        "real_obj_placeholder3": [
+            [
+                -0.104931131,
+                -0.384126663,
+                0.819572568
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0.1,
+                0.1,
+                0.1
+            ]
+        ],
+        "real_obj_placeholder4": [
+            [
+                -0.2713469,
+                -0.384126663,
+                0.656860232
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0.1,
+                0.1,
+                0.1
+            ]
+        ],
+        "real_obj_placeholder5": [
+            [
+                -0.363949776,
+                -0.384126663,
+                0.454675674
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0.1,
+                0.1,
+                0.1
+            ]
+        ],
+        "Target_point1": [
+            [
+                -0.06601812,
+                -0.384126663,
+                0.4602279
+            ],
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1
+            ]
+        ]
+    }
+}

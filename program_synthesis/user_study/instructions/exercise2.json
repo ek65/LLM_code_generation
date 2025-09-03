@@ -1,0 +1,26 @@
+{
+    "precaution": "Clear your surroundings to make sure you do not knock over any items.",
+    "instruction": [
+        "Put the post it in front of you with your left hand.",
+        "Start with your arm in a neutral position on the table.",
+        "Slide your arm forward as far as you can to reach for the pink post-it.",
+        "Slide your arm back as far as you can towards your body.",
+        "Repeat the process of straightening your elbow and reaching forward for the pink post-it.",
+        "Bring your arm back to your body again.",
+        "Repeat these steps once more. Let me guide you through the steps."
+    ],
+    "setup": {
+        "ego": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    }
+}

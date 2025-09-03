@@ -1,0 +1,68 @@
+{
+    "0": {
+        "ActionAPI": "SendImageAndTextRequestAction+CheckSeated",
+        "Instruction": "Sit at a table with a wallet placed in front of you.",
+        "Time_Taken": 4.781384229660034,
+        "Completeness": true
+    },
+    "1": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Place your right hand near the wallet.",
+        "Time_Taken": 18.052565813064575,
+        "Completeness": false
+    },
+    "2": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Hold the wallet with your left hand.",
+        "Time_Taken": 7.513671159744263,
+        "Completeness": true
+    },
+    "3": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Use your right hand to unzip the wallet slowly.",
+        "Time_Taken": 7.445778131484985,
+        "Completeness": true
+    },
+    "4": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Use your right hand to reach into the coin pocket.",
+        "Time_Taken": 18.144588947296143,
+        "Completeness": false
+    },
+    "5": {
+        "ActionAPI": "SendImageAndTextRequestAction+CheckFingerTouch",
+        "Instruction": "Pinch and remove one coin using your fingers.",
+        "Time_Taken": 13.936448812484741,
+        "Completeness": true
+    },
+    "6": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Place the coin on the table.",
+        "Time_Taken": 18.065123081207275,
+        "Completeness": false
+    },
+    "7": {
+        "ActionAPI": "SendImageAndTextRequestAction+CheckFingerTouch",
+        "Instruction": "Pinch and remove one more coin using your fingers.",
+        "Time_Taken": 18.09833288192749,
+        "Completeness": false
+    },
+    "8": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Place the coin on the table.",
+        "Time_Taken": 18.106028079986572,
+        "Completeness": false
+    },
+    "9": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Place the wallet on the table.",
+        "Time_Taken": 7.43479585647583,
+        "Completeness": true
+    },
+    "10": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Rest your right arm.",
+        "Time_Taken": 7.53948712348938,
+        "Completeness": true
+    }
+}

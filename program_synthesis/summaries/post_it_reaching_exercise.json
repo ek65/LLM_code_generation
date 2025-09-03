@@ -1,0 +1,47 @@
+{
+    "Exercise Step": [
+        "Put the post it in front of you with your left hand.",
+        "Start with your arm in a neutral position on the table.",
+        "Slide your arm forward as far as you can to reach for the pink post-it.",
+        "Slide your arm back as far as you can towards your body.",
+        "Repeat the process of straightening your elbow and reaching forward for the pink post-it.",
+        "Bring your arm back to your body again.",
+        "Repeat these steps once more. Let me guide you through the steps."
+    ],
+    "Successful Instructions": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+    ],
+    "Failed Instructions": [
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true
+    ],
+    "Omitted Instructions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "Duration of Completion": [
+        3.8634040355682373,
+        18.191579818725586,
+        8.124478340148926,
+        17.892405033111572,
+        18.21907615661621,
+        5.19051194190979,
+        72.01842093467712
+    ]
+}

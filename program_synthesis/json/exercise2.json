@@ -1,0 +1,22 @@
+{
+    "precaution": "Remove any items from the table that you could knock off.",
+    "instruction": [
+        "Separate fingers as wide as you can on Right hand.", 
+        "Bring fingers back together.", 
+        "Repeat the first and second steps for 3 reps. Let me guide you through the steps."
+    ],
+    "setup": {
+        "ego": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    }
+}

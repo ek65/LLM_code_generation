@@ -1,0 +1,38 @@
+{
+    "0": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Put the scoop in your right hand.",
+        "Time_Taken": 5.885300159454346,
+        "Completeness": true
+    },
+    "1": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Rest your right forearm on the table.",
+        "Time_Taken": 15.761654138565063,
+        "Completeness": true
+    },
+    "2": {
+        "ActionAPI": "SendImageAndTextRequestAction+CheckWristSupination",
+        "Instruction": "Keep your right forearm in contact with the table and turn your right arm so your palm is facing up and the scoop is towards the right.",
+        "Time_Taken": 18.07524800300598,
+        "Completeness": false
+    },
+    "3": {
+        "ActionAPI": "SendImageAndTextRequestAction+CheckWristPronation",
+        "Instruction": "Turn your right arm so your palm is facing down towards the table and the scoop is towards the left.",
+        "Time_Taken": 15.74238896369934,
+        "Completeness": true
+    },
+    "4": {
+        "ActionAPI": "CheckDuration+SendImageAndTextRequestAction",
+        "Instruction": "Hold each position for 3 seconds.",
+        "Time_Taken": 18.18124794960022,
+        "Completeness": false
+    },
+    "5": {
+        "ActionAPI": "Repeat Loop (1x)",
+        "Instruction": "Repeat these steps one more time.",
+        "Time_Taken": 73.20379424095154,
+        "Completeness": false
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "Exercise Step": [
+        "Place the tongs in your right hand with your left hand.",
+        "Position the thumb on one side of the tongs and the other four fingers on the other side.",
+        "Pick up one ball at a time with the tongs.",
+        "Transfer the ball to the towel.",
+        "Repeat the third and fourth steps for all three balls.",
+        "After all balls are transferred to the towel, pick up one ball at a time from the towel",
+        "Transfer the ball back to the bowl.",
+        "Repeat the last two steps until all balls are back in the bowl."
+    ],
+    "Successful Instructions": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true
+    ],
+    "Failed Instructions": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+    ],
+    "Omitted Instructions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "Duration of Completion": [
+        9.805386066436768,
+        4.4508750438690186,
+        18.137438774108887,
+        18.11101508140564,
+        103.50291681289673,
+        5.798618793487549,
+        9.559371948242188,
+        71.57234311103821
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "precaution": "Remove any items from the table that you could knock off.",
+    "instruction": [
+        "Sit at the table with a spoon, a pair of chopsticks, a fork, and a container in front of you.",
+        "Place your right hand on the table near the utensils.",
+        "Use your right hand to pick up the spoon.",
+        "Place the spoon into the container.",
+        "Rest your hand on the table to take a brief break.",
+        "Use your right hand to pick up the pair of chopsticks.",
+        "Place the chopsticks into the container.",
+        "Rest your hand on the table to take a brief break.",
+        "Use your right hand to pick up the fork.",
+        "Place the fork into the container.",
+        "Rest your right arm."
+    ],
+    "setup": {
+        "ego": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    }
+}

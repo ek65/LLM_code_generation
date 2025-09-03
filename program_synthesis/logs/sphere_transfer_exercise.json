@@ -1,0 +1,62 @@
+{
+    "0": {
+        "ActionAPI": "SendImageAndTextRequestAction+CheckSeated",
+        "Instruction": "Sit at the table with a bowl containing three colored spheres\u2014yellow, red, and blue\u2014, a towel, and a tong in front of you.",
+        "Time_Taken": 4.987411975860596,
+        "Completeness": true
+    },
+    "1": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Pick up the tongs with your right hand.",
+        "Time_Taken": 6.49583625793457,
+        "Completeness": true
+    },
+    "2": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Use the tongs to pick up the yellow bead from the bowl.",
+        "Time_Taken": 6.3009560108184814,
+        "Completeness": true
+    },
+    "3": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Move the yellow bead onto the towel and release it gently.",
+        "Time_Taken": 18.073659896850586,
+        "Completeness": false
+    },
+    "4": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Next, use the tongs to pick up the red bead from the bowl.",
+        "Time_Taken": 18.070831298828125,
+        "Completeness": false
+    },
+    "5": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Move the red bead onto the towel and release it.",
+        "Time_Taken": 10.79954195022583,
+        "Completeness": true
+    },
+    "6": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Then, pick up the blue bead from the bowl using the tongs.",
+        "Time_Taken": 10.75226616859436,
+        "Completeness": true
+    },
+    "7": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Place the blue sphere on the towel.",
+        "Time_Taken": 18.181889057159424,
+        "Completeness": false
+    },
+    "8": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Next, place the tongs on the table",
+        "Time_Taken": 18.11949896812439,
+        "Completeness": false
+    },
+    "9": {
+        "ActionAPI": "SendImageAndTextRequestAction",
+        "Instruction": "Finally, rest your right hand.",
+        "Time_Taken": 7.412003040313721,
+        "Completeness": true
+    }
+}

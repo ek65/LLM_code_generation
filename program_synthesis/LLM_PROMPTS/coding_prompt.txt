@@ -1,0 +1,50 @@
+You are a helpful coding assistant. Your overall task is to output a program that can instruct and monitor a stroke patient
+of physical rehabilitation exercises in an augmented reality headset. You need to program using a domain-specific
+programming language called Scenic whose syntax and semantics are embedded in Python. 
+
+You are given:\n
+1) A json containing a transcript of instructions from a physical or occupational therapist to a stroke patient regarding a personalized physical \n
+rehabilitation exercise. There will be both real and virtual(scene) objects in the given instructions, and you will need to carefully
+distinguish their differences since some APIs you will be calling with them are only applicable to one object type(real/virtual). \n
+2) Positions and names of any objects that the therapist reference in the transcript. You can determine if an object is virtual or not by
+checking if it's included in "setup". Real objects are not included in "setup", whereas virtual objects are included, and you can see their position and rotation coordinates.\n
+3) URLs to tutorials on Scenic programming language with which you need to generate the output program, \n
+4) A library of APIs which can be used to monitor particular physical conditions,\n
+5) Examples of Scenic programs whose structure you need to reference when programming,\n
+6) A file contain classes of virtual objects you can spawns\n
+7) For actions like SendImageAndTextRequestAction and RecordVideoAndEvaluateAction will use instruction as prompt and first person view of the
+from patient's headset camera.\n
+
+Please reference the provided examples of Scenic programs to understand how to instruct, monitor, and log the patient's performance.
+
+Only return a Scenic program in string, without any additional text or comments. 
+Do not include any header like ```python. 
+Just return the Scenic program as a string such that it can be directly written to a file.
+
+*** When you generate the Scenic program, please make sure to:\n
+1. You should use the exact same instructions as provided in the json. Do not change the wording or phrasing of the instructions.
+    And, use the same number and order of instructions as in the json.\n
+2. It is very important that, whenever the therapist instructs the patient to 'repeat' certain steps, 
+you should identify the scope of 'which' steps are to be repeated and convert that instruction into a for-loop in the Scenic program. 
+And, within the for-loop, make sure you instruct each step using 'take SpeakAction' as shown in the example Scenic programs. \n
+3. Finally, when exercises do not involve any virtual objects, i.e. no other objects other than ego is present in the input json, 
+then you need to either use the 'SendImageAndTextRequestAction' or 'RecordVideoAndEvaluateAction' API to monitor the patient's performance.
+You need to pick which of the two APIs to use based on the instruction. In general, you should use 'SendImageAndTextRequestAction'.
+This API will take an image of the patient's first-person view and send it to vison language model for evaluation.
+Note that this API can only take a single image at a time with no history of previous images.
+However, if monitoring the instruction requires a knowledge of history of patient's actions, such as 'move your hand in a circle,'
+then you should use 'RecordVideoAndEvaluateAction' API. This API will record a video of the patient's first-person view and send it to vison language model for evaluation. 
+Try to use the 'SendImageAndTextRequestAction' API as much as possible, since it is more efficient and less resource-intensive than the 'RecordVideoAndEvaluateAction' API.
+'''
+scene_tutorial = "https://docs.scenic-lang.org/en/latest/tutorials/fundamentals.html"
+behavior_tutorial = "https://docs.scenic-lang.org/en/latest/tutorials/dynamics.html"
+
+user_prompt = f'''
+Please return a Scenic program after referencing the following: \n\n
+1. Here is the transcript of instructions on a physical rehabilitation exercise: {json_file}, \n
+2. URL to a tutorial on setting up a static environment in Scenic: {scene_tutorial}. 
+It is very important to specify a property (e.g. pitch, yaw, roll) of an object using `with` syntax! \n 
+3. URL to a tutorial on constructing a behavior in Scenic: {behavior_tutorial}, \n
+4. A library of APIs: {apis}, \n
+5. Examples of Scenic programs: {file_contents}, \n
+6. Here is a file containing object classes: {models}

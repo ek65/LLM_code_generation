@@ -1,0 +1,62 @@
+{
+    "Exercise Step": [
+        "Sit at the table with a bowl containing three colored spheres\u2014yellow, red, and blue\u2014, a towel, and a tong in front of you.",
+        "Pick up the tongs with your right hand.",
+        "Use the tongs to pick up the yellow bead from the bowl.",
+        "Move the yellow bead onto the towel and release it gently.",
+        "Next, use the tongs to pick up the red bead from the bowl.",
+        "Move the red bead onto the towel and release it.",
+        "Then, pick up the blue bead from the bowl using the tongs.",
+        "Place the blue sphere on the towel.",
+        "Next, place the tongs on the table",
+        "Finally, rest your right hand."
+    ],
+    "Successful Instructions": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true
+    ],
+    "Failed Instructions": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false
+    ],
+    "Omitted Instructions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "Duration of Completion": [
+        4.987411975860596,
+        6.49583625793457,
+        6.3009560108184814,
+        18.073659896850586,
+        18.070831298828125,
+        10.79954195022583,
+        10.75226616859436,
+        18.181889057159424,
+        18.11949896812439,
+        7.412003040313721
+    ]
+}

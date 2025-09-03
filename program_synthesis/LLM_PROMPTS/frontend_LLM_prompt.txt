@@ -1,0 +1,77 @@
+LLM_Prompt = '''
+
+You are given a transcript summary in JSON format from a physical or occupational therapist. The JSON includes a list called "instruction" that contains sequential exercise steps given to the patient.
+
+Your task is to review the list and **decompose any instruction step that contains multiple actions into separate steps**, each containing **only one instruction**. If a step already contains a single, atomic instruction, leave it unchanged.
+
+**Important constraints:**
+- **Do not rephrase or modify** the wording of any instruction.
+- **Preserve the original order** of the steps.
+- **Keep all other JSON fields (e.g., "goal", "precaution") exactly as they are.**
+- Only decompose when multiple actions are sequentially stated and can be separated meaningfully.
+- Do **not decompose instructions** that describe simultaneous conditions or constraints (e.g., "touch the circle without leaning forward").
+
+
+**Example1 input:**
+{
+  "goal": "Practice arm extension and improve control over arm movements without rotating the shoulder.",
+  "precaution": "If you feel any pain or discomfort doing this exercise, you should stop immediately. Before starting the exercise, make sure you clear all the objects from your table.",
+  "instruction": [
+    '1. place both of your hands on the table in front of you',
+    '2. touch the circle with your right hand, then touch the square, and then the star',
+    '3. fully extend both of your arms forward in parallel while sitting up straight',
+    '4. place both of your hands on the table in front of you again'
+  ]
+}
+
+**Example1 output: example regarding when to (#2, #3, #4) and when not to (#5) decompose instructions**
+{
+  "goal": "Practice arm extension and improve control over arm movements without rotating the shoulder.",
+  "precaution": "If you feel any pain or discomfort doing this exercise, you should stop immediately. Before starting the exercise, make sure you clear all the objects from your table.",
+  "instruction": [
+    '1. place both of your hands on the table in front of you', 
+    '2. touch the circle with your right hand', 
+    '3. then touch the square with your right hand', 
+    '4. then touch the star with your right hand', 
+    '5. fully extend both of your arms forward in parallel while sitting up straight',
+    '6. place both of your hands on the table in front of you again'
+  ]
+}
+
+**Example2 input:**
+{
+  "goal": "Practice shoulder flexion and abduction",
+  "precaution": "If you feel any pain or discomfort doing this exercise, you should stop immediately. Before starting the exercise, make sure you clear all the objects from your table.",
+  "instruction": [
+        "1. Stand up",
+        "2. Face the wall behind you",
+        "3. Locate the circle that's a bit lower on the wall",
+        "4. Trace the circle with your right hand by touching the outline and following it all the way down to the right",
+        "5. Continue following the outline back up the other side to where you started",
+        "6. Now, place your index finger (pointer finger) directly on the circle",
+        "7. With your index finger, follow the outline of the circle again",
+        "8. Once you've completed the circle, try to follow it in the opposite direction (counterclockwise)",
+        "9. Practice this exercise by tracing the circle 10 times today",
+        "10. Half of your practice should be done clockwise",
+        "11. The other half should be done counterclockwise. For example, do 5 tracings in one direction and 5 in the other direction"
+  ]
+}
+
+**Example2 output: example regarding when to merge instructions (#9, #10) **
+{
+  "goal": "Practice shoulder flexion and abduction",
+  "precaution": "If you feel any pain or discomfort doing this exercise, you should stop immediately. Before starting the exercise, make sure you clear all the objects from your table.",
+  "instruction": [
+        "1. Stand up",
+        "2. Face the wall behind you",
+        "3. Locate the circle that's a bit lower on the wall",
+        "4. Trace the circle with your right hand by touching the outline and following it all the way down to the right",
+        "5. Continue following the outline back up the other side to where you started",
+        "6. Now, place your index finger (pointer finger) directly on the circle",
+        "7. With your index finger, follow the outline of the circle again",
+        "8. Once you've completed the circle, try to follow it in the opposite direction (counterclockwise)",
+        "9. Practice this exercise by tracing the circle 5 times in clockwise direction",
+        "10. Now trace the circle 5 times in counterclockwise."
+  ]
+}
+'''

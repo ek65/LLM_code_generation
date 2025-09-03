@@ -1,0 +1,21 @@
+{
+    "instructions": [
+        "1. Sit in a sturdy chair placed approximately 6” distance in front of you and a wall/corner approximately 6” distance behind you. The back of the chair should be positioned so it could be used to help maintain stability with your hands if balance is lost. ",
+        "2. Stand for up to 30 seconds duration with your eyes open. Try to keep your balance and hold the position, only using hands if unable to hold the position to avoid falling.",
+        "3. Repeat steps 1–2 five times."
+    ],
+    "setup": {
+        "ego": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    }
+}

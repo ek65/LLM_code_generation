@@ -1,0 +1,22 @@
+{
+    "precaution": "If you feel pain, fatigue, or dizziness, please tell the system so that we can terminate the exercise for your safety.",
+    "instruction": [
+        "Start by stacking the cup labeled #1 on top of the cup labeled #2, using your right hand.",
+        "Then, using your right hand, stack cup #3 on top of cup #2.",
+        "Once you are done, return your hands to resting on the table."
+    ],
+    "setup": {
+        "ego": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Exercise Step": [
+        "Put the scoop in your right hand.",
+        "Rest your right forearm on the table.",
+        "Keep your right forearm in contact with the table and turn your right arm so your palm is facing up and the scoop is towards the right.",
+        "Turn your right arm so your palm is facing down towards the table and the scoop is towards the left.",
+        "Hold each position for 3 seconds.",
+        "Repeat these steps one more time."
+    ],
+    "Successful Instructions": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+    ],
+    "Failed Instructions": [
+        false,
+        false,
+        true,
+        false,
+        true,
+        true
+    ],
+    "Omitted Instructions": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "Duration of Completion": [
+        5.885300159454346,
+        15.761654138565063,
+        18.07524800300598,
+        15.74238896369934,
+        18.18124794960022,
+        73.20379424095154
+    ]
+}

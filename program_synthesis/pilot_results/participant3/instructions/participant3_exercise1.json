@@ -1,0 +1,99 @@
+{
+    "goal": "To extend and strengthen the shoulder.",
+    "precaution": "If you feel pain, fatigue, or dizziness, please tell the system so that we can terminate the exercise for your safety.",
+    "instruction": [
+        "1. Stand up",
+        "2. Face the wall behind you",
+        "3. Locate the circle that's a bit lower on the wall",
+        "4. Trace the circle with your right hand by touching the outline and following it all the way down to the right",
+        "5. Continue following the outline back up the other side to where you started",
+        "6. Now, place your index finger (pointer finger) directly on the circle",
+        "7. With your index finger, follow the outline of the circle again",
+        "8. Once you've completed the circle, try to follow it in the opposite direction (counterclockwise)",
+        "9. Practice this exercise by tracing the circle 10 times today",
+        "10. Half of your practice should be done clockwise",
+        "11. The other half should be done counterclockwise. For example, do 5 tracings in one direction and 5 in the other direction"
+    ],
+    "setup": {
+        "a_star_1": [
+            [
+                0.4322018,
+                -0.459428281,
+                0.468092948
+            ],
+            [
+                270.0,
+                0.0,
+                0.0
+            ],
+            [
+                0.05,
+                0.05,
+                0.05
+            ]
+        ],
+        "a_triangle_1": [
+            [
+                0.182192564,
+                -0.499428272,
+                0.4870072
+            ],
+            [
+                90.0,
+                180.0,
+                0.0
+            ],
+            [
+                0.05,
+                0.05,
+                0.05
+            ]
+        ],
+        "a_square_1": [
+            [
+                -0.08507447,
+                -0.499428272,
+                0.464784741
+            ],
+            [
+                90.0,
+                180.0,
+                0.0
+            ],
+            [
+                0.05,
+                0.05,
+                0.05
+            ]
+        ],
+        "a_circle_1": [
+            [
+                -0.418592632,
+                -0.499428272,
+                0.4135005
+            ],
+            [
+                90.0,
+                180.0,
+                0.0
+            ],
+            [
+                0.05,
+                0.05,
+                0.05
+            ]
+        ],
+        "ego": [
+            [
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ]
+    }
+}
